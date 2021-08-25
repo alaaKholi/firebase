@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837881280469",
+    "project_id": "azkar-a403b",
+    "storage_bucket": "azkar-a403b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837881280469:android:de1dea96b587b7593daf5c",
+        "android_client_info": {
+          "package_name": "com.example.azkar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837881280469-utst8jd224egbf9j0qb9ucfgonfem9bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP8lVPsw8UOnoN2IsvNRZCKQQyXzom90c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837881280469-utst8jd224egbf9j0qb9ucfgonfem9bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
