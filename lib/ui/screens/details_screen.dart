@@ -1,8 +1,8 @@
-import 'package:azkar/backend/firestore_backend.dart';
+import 'package:azkar/backend/firebase/firestore_backend.dart';
 import 'package:azkar/models/Zker_model.dart';
 import 'package:azkar/services/utilites.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
+import '../constants.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
@@ -15,7 +15,6 @@ class DetailsScreen extends StatelessWidget {
     final argument =
         ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
     final Zker zeker = argument['zeker'];
-    print(zeker);
     return Scaffold(
       appBar: AppBar(
         title: Text('أذكاري'),

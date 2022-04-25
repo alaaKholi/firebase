@@ -1,6 +1,5 @@
-import 'package:azkar/models/Zker_model.dart';
-import 'package:azkar/services/utilites.dart';
-
+import '/models/Zker_model.dart';
+import '../constants.dart';
 import '/ui/screens/details_screen.dart';
 import 'package:flutter/material.dart';
 

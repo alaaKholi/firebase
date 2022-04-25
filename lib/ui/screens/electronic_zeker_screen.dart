@@ -1,5 +1,5 @@
-import 'package:azkar/backend/firestore_backend.dart';
-import 'package:azkar/services/utilites.dart';
+import 'package:azkar/backend/firebase/firestore_backend.dart';
+import '../constants.dart';
 import 'package:azkar/ui/screens/home_screen.dart';
 import 'package:azkar/ui/wedgits/custom_drawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';

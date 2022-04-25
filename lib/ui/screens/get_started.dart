@@ -1,5 +1,5 @@
 import 'package:azkar/services/shared_prefs.dart';
-import 'package:azkar/services/utilites.dart';
+import '../constants.dart';
 import 'package:azkar/ui/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 

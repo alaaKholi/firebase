@@ -1,4 +1,4 @@
-import 'package:azkar/services/utilites.dart';
+import '../constants.dart';
 import 'package:azkar/ui/screens/add_zeker_screen.dart';
 import 'package:azkar/ui/screens/electronic_zeker_screen.dart';
 import 'package:azkar/ui/screens/home_screen.dart';

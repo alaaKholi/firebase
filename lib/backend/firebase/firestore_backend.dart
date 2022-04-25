@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:azkar/models/Zker_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -35,18 +33,3 @@ Stream<Map<String, dynamic>> counterAndTitle = firestore
   Map<String, dynamic> map = e.data() as Map<String, dynamic>;
   return map;
 });
-
-Future<bool> checkConnection() async {
-  try {
-    final result = await InternetAddress.lookup('example.com');
-    if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
-      print('connected');
-      return true;
-    } else {
-      return false;
-    }
-  } on SocketException catch (_) {
-    print('not connected');
-    return false;
-  }
-}

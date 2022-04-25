@@ -49,7 +49,7 @@
 // }
 
 import 'package:azkar/models/Zker_model.dart';
-import 'package:azkar/services/utilites.dart';
+import '../constants.dart';
 import 'package:azkar/ui/wedgits/custom_drawer.dart';
 import 'package:provider/provider.dart';
 
@@ -104,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                             ]),
                         child: Text(
                           'لقد أنهيت أذكارك اليومية\n نتمنى لك يوماً جميلاً',
-                          style: TextStyle(color: Colors.white,fontSize: 20),
+                          style: TextStyle(color: Colors.white, fontSize: 20),
                         )),
                   )
                 : SingleChildScrollView(
